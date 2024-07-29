@@ -5,7 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {   colors: {
+      customButton: 'rgb(31, 145, 156)',
+    },},
   },
   plugins: [],
 }
