@@ -13,9 +13,9 @@ const Page = () => {
         <nav className='inline-flex bg-gradient-to-r from-blue-950 via-blue-600 to-blue-300 w-full'>
           <img src={logo} className='ml-4'/>
           <p className='text-white mt-10 ml-2 font-bold text-xl '>My StudyLife</p>
-          <p className='text-white font-medium text-xl ml-96 mt-10'><Link>Scheduling</Link></p>
-          <p className='text-white font-medium text-xl ml-20 mt-10'><Link>Tasks</Link></p>
-          <p className='text-white font-medium text-xl ml-20 mt-10'><Link>Reminders</Link></p>
+          <p className='text-white font-medium text-xl ml-96 mt-10'><Link to={'/'}>Scheduling</Link></p>
+          <p className='text-white font-medium text-xl ml-20 mt-10'><Link to={'/'}>Tasks</Link></p>
+          <p className='text-white font-medium text-xl ml-20 mt-10'><Link to={'/'}>Reminders</Link></p>
           <button className='text-white  text-lg ml-40 mt-4 p-4 h-14 rounded-lg bg-customButton'>Sign in</button>
         
         </nav>
