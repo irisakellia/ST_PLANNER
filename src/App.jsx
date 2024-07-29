@@ -16,8 +16,9 @@ function App() {
           <button className='text-white  text-lg ml-40 mt-4 p-4 h-14 rounded-lg bg-customButton'>Sign in</button>
         
         </nav>
-
-        <p>Never forget a class </p>
+<section className='bg-gradient-to-b from-white via-blue-200 to-blue-300 h-[700px]'> 
+        <p className='mt-20 text-3xl font-extrabold ml-40 text-blue-950'>Never forget a class or assignment again.</p>
+        </section>
        
       
       </div>
