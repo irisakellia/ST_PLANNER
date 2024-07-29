@@ -4,7 +4,7 @@ import cartoon from '../public/cartoon.avif'
 const wait = () => {
   return (
     <div>
-      <img src=''/>
+      <img src={cartoon}/>
     </div>
   )
 }
