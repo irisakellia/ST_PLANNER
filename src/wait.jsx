@@ -15,13 +15,12 @@ const Wait = () => {
         
         </nav>
 
-    <div className=''>
+    <div className='inline-flex'>
       <img src={cartoon}/>
       <p className='text-blue-950 font-extrabold text-2xl mt-20 ml-20'>You are on the right track</p>
-
-      <p className=''> To be able to make a schedule in our app , you need to sign and join the study community</p>
+    
     </div>
-   
+    <p className='float-right mr-20 pb-4 text-blue-950'> To be able to make a schedule in our app , you need to sign in and join the study community</p>
     </>
   )
 }
