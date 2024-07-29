@@ -18,10 +18,13 @@ function App() {
         </nav>
 <section className='bg-gradient-to-b from-blue-100 via-blue-200 to-blue-300 h-[700px]'> 
         <p className='pt-20 text-3xl font-extrabold ml-40 text-blue-950 '>Never forget a class or assignment again.</p>
+        <section className='inline-flex'>
+          <p className='p-6 py-px bg-white'>Scheduling</p>
+          <p className='p-6 py-px bg-white'>Tasks</p>
+          <p className='p-6 py-px bg-white'>Reminders</p>
         </section>
-        <section>
-          
         </section>
+      
        
       
       </div>
