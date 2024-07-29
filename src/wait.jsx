@@ -2,7 +2,7 @@ import React from 'react'
 import cartoon from '../public/cartoon.png'
 import logo from './assets/logo.png'
 
-const wait = () => {
+const Wait = () => {
   return (
     <>
     <nav className='inline-flex bg-gradient-to-r from-blue-950 via-blue-600 to-blue-300 w-full'>
@@ -15,14 +15,15 @@ const wait = () => {
         
         </nav>
 
-    <div className='inline-flex'>
+    <div className=''>
       <img src={cartoon}/>
       <p className='text-blue-950 font-extrabold text-2xl mt-20 ml-20'>You are on the right track</p>
-      
+
+      <p className=''> To be able to make a schedule in our app , you need to sign and join the study community</p>
     </div>
-    <p className=''> To be able to make a schedule in our app , you need to sign and join the study community</p>
+   
     </>
   )
 }
 
-export default wait
+export default Wait
