@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../public/logo.png'
+import logo from './assets/logo.png'
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
 import AlarmIcon from '@mui/icons-material/Alarm';
 import EventIcon from '@mui/icons-material/Event';
@@ -32,9 +32,9 @@ const Page = () => {
        
       
       </div>
-      </div>
-
+     
     
+    </div>
   )
 }
 
