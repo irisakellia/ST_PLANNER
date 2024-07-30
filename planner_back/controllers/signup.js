@@ -20,3 +20,5 @@ async function makeUser(req,res){
         return res.status(500).json({success:false, meaage:"failed to make a user"})
     }
 }
+
+module.exports = {makeUser};
