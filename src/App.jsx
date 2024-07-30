@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Page from './Page'
 import Wait from './Wait'
+import Signin from './Signin'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 
 
@@ -15,6 +16,10 @@ function App() {
     element:<Wait/>,
 
   }, 
+  {
+    path:'/signin',
+    element:<Signin/>,
+  },
 
  ]);
 
