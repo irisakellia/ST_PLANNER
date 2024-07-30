@@ -2,7 +2,9 @@ import { useState } from 'react'
 import Page from './Page'
 import Wait from './Wait'
 import Signin from './Signin'
+import Login from './Login'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
+
 
 
 function App() {
@@ -19,6 +21,10 @@ function App() {
   {
     path:'/signin',
     element:<Signin/>,
+  },
+  {
+    path:'/login',
+    element:<Login/>,
   },
 
  ]);

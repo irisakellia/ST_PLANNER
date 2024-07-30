@@ -4,7 +4,7 @@ const Signin = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="bg-white p-8 rounded shadow-md w-full max-w-md">
-        <h2 className="text-2xl font-bold mb-6 text-center">Sign In</h2>
+        <h2 className="text-2xl font-bold mb-6 text-center">LogIn to <span className='text-blue-950'>STUPLA</span></h2>
         <form>
           <div className="mb-4">
             <label htmlFor="email" className="block text-gray-700 mb-2">Email</label>
