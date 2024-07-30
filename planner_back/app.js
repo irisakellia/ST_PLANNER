@@ -3,7 +3,7 @@ const port = 6000 ;
 const {dbConnection} = require('./connection/dbconnection')
 
 const app = express();
-dbConnection;
+dbConnection();
 
 
 app.listen(port, ()=>{

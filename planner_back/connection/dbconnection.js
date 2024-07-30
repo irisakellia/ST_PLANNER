@@ -7,14 +7,14 @@ const dbConnection = ()=>{
     mongoose.connect(uri);
 
     mongoose.connection.on("connected", ()=>{
-        console.log("successfully connected to the database ");
+        console.log("successfully connected to the mongodb ");
     })
 
     mongoose.connection.on("disconnection",()=>{
         console.log("a disconnection from the database ");
     })
 
-    mongoose.connection.on(error,()=>{
+    mongoose.connection.on("error",(error)=>{
         console.error(error.message);
     })
 }
