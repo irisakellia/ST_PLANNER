@@ -2,23 +2,12 @@ import React from 'react';
 
 const Signin = () => {
   return (
-    <>
-   
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
-         <div className="bg-white p-8 rounded shadow-md w-full max-w-md">
-        <h2 className="text-2xl font-bold mb-6 text-center">Register </h2>
+      <div className="bg-white p-8 rounded shadow-md w-full max-w-md">
+        <h2 className="text-2xl font-bold mb-6 text-center">Sign In</h2>
         <form>
           <div className="mb-4">
-            <label htmlFor="name" className="block text-gray-700 mb-2"></label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              className="w-full px-3 py-2 border border-gray-300 rounded"
-              placeholder="Enter your name"
-              required
-            />
-            <label htmlFor="email" className="block text-gray-700 mb-2"></label>
+            <label htmlFor="email" className="block text-gray-700 mb-2">Email</label>
             <input
               type="email"
               id="email"
@@ -29,7 +18,7 @@ const Signin = () => {
             />
           </div>
           <div className="mb-6">
-            <label htmlFor="password" className="block text-gray-700 mb-2"></label>
+            <label htmlFor="password" className="block text-gray-700 mb-2">Password</label>
             <input
               type="password"
               id="password"
@@ -46,12 +35,8 @@ const Signin = () => {
             Sign In
           </button>
         </form>
-        <p className='text-xs mt-6 ml-4'>If you have already registered , please <span className='text-blue-950'>LogIn</span></p>
       </div>
-      
     </div>
-   
-    </>
   );
 };
 
