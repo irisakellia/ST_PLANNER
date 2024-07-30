@@ -20,7 +20,7 @@ const Page = () => {
         
         </nav>
         
-<section className='bg-gradient-to-b from-blue-100 via-blue-200 to-blue-300 h-[700px]'> 
+<section className='bg-gradient-to-b from-white via-blue-200 to-blue-300 h-[700px]'> 
         <p className='pt-20 text-3xl font-extrabold ml-40 text-blue-950 '>Never forget a class or assignment again.</p>
         <section className='inline-flex mt-20'>
           <p className='p-8 py-4 bg-white ml-20 w-80 rounded-s-lg cursor-pointer'> <CheckBoxIcon/><Link to={'/wait'}>Scheduling</Link> </p>
