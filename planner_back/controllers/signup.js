@@ -1,5 +1,5 @@
 const loginSchema = require('../models/schema');
-const bcypt = require('bcrypt');
+const bcrypt = require('bcrypt');
 
 async function makeUser(req,res){
     try {
