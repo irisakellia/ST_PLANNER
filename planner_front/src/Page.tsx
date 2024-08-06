@@ -16,7 +16,7 @@ const Page = () => {
           <p className='text-white font-medium text-xl ml-96 mt-10'><Link to={'/'}>Scheduling</Link></p>
           <p className='text-white font-medium text-xl ml-20 mt-10'><Link to={'/'}>Tasks</Link></p>
           <p className='text-white font-medium text-xl ml-20 mt-10'><Link to={'/'}>Reminders</Link></p>
-          <button className='text-white  text-lg ml-40 mt-4 p-4 h-14 rounded-lg bg-customButton'><Link to={'/signin'}>Signin</Link></button>
+          <button className='text-white  text-lg ml-40 mt-4 p-4 h-14 rounded-lg bg-customButton'><Link to={'/sign'}>Signin</Link></button>
         
         </nav>
         

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Page from './Page'
 import Wait from './Wait'
-import Signin from './Signin'
+import SignIn from './SignIn'
 import Login from './Login'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 
@@ -19,8 +19,8 @@ function App() {
 
   }, 
   {
-    path:'/signin',
-    element:<Signin/>,
+    path:'/sign',
+    element:<SignIn/>,
   },
   {
     path:'/login',
